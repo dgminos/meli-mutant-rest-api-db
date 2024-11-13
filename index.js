@@ -1,10 +1,9 @@
+import 'dotenv/config'
 import express from "express";
 
 const app = express();
 
 app.use(express.json());
-
-process.loadEnvFile();
 
 app.get("/", (req, res) => {
   res.send("Welcome to my MELI challenge!");
