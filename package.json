@@ -1,0 +1,21 @@
+{
+  "name": "meli-dna-rest-api-db",
+  "version": "1.0.0",
+  "description": "meli challenge",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "rest",
+    "api"
+  ],
+  "author": "g",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
